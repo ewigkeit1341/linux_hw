@@ -1,0 +1,95 @@
+   0 ls
+   1 mkdir animals
+   2 ls
+   3 cd /animals
+   4 cd /home/animals
+   5 cd animals
+   6 mkdir pluto
+   7 ls
+   8 rmdir pluto
+   9 ls
+  10 mkdir dogs
+  11 ls
+  12 mkdir cats
+  13 ls
+  14 mkdir fish
+  15 ls
+  16 cd cat
+  17 cd cats
+  18 mkdir garfield
+  19 cd ..
+  20 cd dogs
+  21 mkdir pluto
+  22 ls
+  23 cd ..
+  24 cd fish
+  25 mkdir nemo
+  26 ls
+  27 cd ..
+  28 ls -a
+  29 cat readme.txt
+  30 cd ..
+  31 ls
+  32 cd tmp
+  33 ls
+  34 touch adam
+  35 ls
+  36 cd ..
+  37 ls
+  38 cd home
+  39 mkdir humans
+  40 ls
+  41 cd ..
+  42 ls
+  43 cd tmp
+  44 ls
+  45 cp adam /home/humans
+  46 ls
+  47 cd ..
+  48 ls
+  49 cd home/humans
+  50 ls
+  51 cd ..
+  52 ls
+  53 cd tmp
+  54 mkdir evA
+  55 ls
+  56 cd ..
+  57 ls
+  58 cd opt
+  59 cp -a tmp/evA opt
+  60 cd ..
+  61 ls
+  62 mv tmp/evA new_opt/eve
+  63 cd tmp
+  64 mv evA new_opt/eve
+  65 cd tmp
+  66 ls
+  67 rmdir evA
+  68 ls
+  69 touch evA
+  70 ls
+  71 cd ..
+  72 ls
+  73 mv tmp/evA new_opt/eve
+  74 cd tmp
+  75 mv evA ../opt/eve
+  76 ls
+  77 cd ..
+  78 cd opt
+  79 ls
+  80 mv eve ../home/humans
+  81 cd ..
+  82 cd home
+  83 ls
+  84 cd ..
+  85 cd opt
+  86 ls
+  87 cd ..
+  88 cd home
+  89 ls
+  90 cd humans
+  91 ls
+  92 cd ..
+  93 history
+  94 history > history.txt
