@@ -1,0 +1,23 @@
+  981  nano sleeper.sh
+  982  cd /opt/260324_morning/Margot/
+  983  ls
+  984  cd /opt/260324_morning/Margot/sleeper.sh
+  985  nano sleeper.sh
+  986  nano /opt/260324_morning/Margot/sleeper.sh
+  987  cd /opt/260324_morning/Margot/
+  988  ls -l
+  989  cat /os-release
+  990  cd /opt/260324_morning/Margot/
+  991  [ec2-user@ip-172-31-33-20 Margot]$ touch /opt/260324_morning/Margot/s
+  992  rm /opt/260324_morning/Margot/sleeper.sh.save
+  993  rm /opt/260324_morning/Margot/sleeper.sh
+  994  ls -l
+  995  cd /opt/260324_morning/Margot/
+  996  nano sleeper.sh
+  997  chmod +x sleeper.sh
+  998  nano sleeper.sh
+  999  cat /etc/os-release
+ 1000  cat /etc/os-release | head -1 | grep -o Amazon
+ 1001  nano sleeper.sh
+ 1002  history
+[ec2-user@ip-172-31-33-20 Margot]$
